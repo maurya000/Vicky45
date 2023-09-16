@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/1238muj/THALAPATHY-FILTER-BOT",
-    "repository": "https://github.com/1238muj/THALAPATHY-FILTER-BOT",
+    "website": "https://t.me/movies_search_gr0up",
+    "repository": "https://t.me/movies_search_gr0up",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
