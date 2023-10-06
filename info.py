@@ -112,9 +112,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://tomandjerybot-511ad8038257.herokuapp.com/".format(FQDN)
+    URL = "https://cricmafia0000.onrender.com/".format(FQDN)
 else:
-    URL = "https://tomandjerybot-511ad8038257.herokuapp.com/".format(FQDN)
+    URL = "https://cricmafia0000.onrender.com/".format(FQDN)
 
 
 
