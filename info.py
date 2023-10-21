@@ -23,7 +23,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', ' https://graph.org/file/f8f9df8221c5674f15f3c.jpg ')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/howtodownloadmoviestamilhd/70")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/movies_search_gr0up")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
@@ -96,8 +96,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://tomandjerybot-511ad8038257.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://tomandjerybot-511ad8038257.herokuapp.com/".format(FQDN, PORT)
+URL = "https://cricmafia0000.onrender.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://cricmafia0000.onrender.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
